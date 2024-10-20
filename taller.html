@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taller TypeScript #1</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container-fluid bg-info d-flex align-items-center">
+        <img src="./imagenes/tvseries.jpg" alt="TV Icon" style="width: 50px; height: 50px; margin-right: 15px;">
+        <h1>TV Series</h1>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <table class="table table-bordered">
+                    <thead class="bg-dark text-white">
+                        <tr>
+                            <th>#</th>
+                            <th>Name</th>
+                            <th>Channel</th>
+                            <th>Seasons</th>
+                        </tr>
+                    </thead>
+                    <tbody id="series">
+                        <!-- Las series se insertarán aquí -->
+                    </tbody>
+                </table>
+                <p id="promedio"></p>
+            </div>
+        </div>
+    </div>
+
+    <script type="module" src="./scripts/serie.js" ></script>
+    <script type="module" src="./scripts/data.js" ></script>
+    <script type="module" src="./scripts/app.js"></script>
+</body>
+</html>
